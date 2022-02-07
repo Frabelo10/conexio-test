@@ -1,3 +1,26 @@
 .background {
   background-color:blue;
+
+  .container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    .row{
+      justify-content: center;
+      .card{
+        margin: 16px;
+        text-align: center;
+        border-radius: 12px;
+        .mat-card-title{
+          font-size: 38px;
+          min-height: 171px;
+        }
+        .mat-raised-button{
+          width: 100%;
+          border-radius: 25px;
+          align-items: baseline;
+          margin-bottom: 8px;
+        }
+      }
+    }
+  }
 }
